@@ -1,13 +1,16 @@
 {
-  "client_id" : "0984a7b6-bc13-4141-8b0d-8f767e136bb7",
+  "client_id" : "f9ed9766-f152-4b4c-b5e9-da46c6b53ab7",
   "authorization_user_agent" : "DEFAULT",
-  "redirect_uri" : "msauth://com.azuresamples.msalandroidapp/1wIqXSqBj7w%2Bh11ZifsnqwgyKrY%3D",
+  "redirect_uri" : "msauth://com.inventariosrfidmobile/S4h2Z9n4Q235vH1o%2B95q%2F1f35X4%3D",
   "account_mode" : "SINGLE",
   "broker_redirect_uri_registered": true,
   "authorities" : [
     {
       "type": "AAD",
-      "authority_url": "https://login.microsoftonline.com/common"
+      "audience": {
+        "type": "AzureADMyOrg",
+        "tenant_id": "6d88d07c-1672-4d16-ab8c-3af2ef736fe7"
+      }
     }
   ]
 }
